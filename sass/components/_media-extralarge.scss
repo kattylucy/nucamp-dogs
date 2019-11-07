@@ -1,0 +1,61 @@
+@media screen and (min-width: $break-extralarge) {
+
+
+    .banner{
+
+        padding-bottom: 15%;
+
+        .banner-text{
+            @include banner-letter;
+            h1{
+                font-size: 30px;
+                padding: 5% 60% 0px 10%;
+            }
+    
+            a button{
+                @include button;
+                margin: 0px 60% 0px 10%;
+                width: 20%;
+                height: 50px;
+            }
+        }
+    }
+
+    .bannerabout{
+        .banner-text{
+            h1{
+                font-size: 3em;
+        }
+    }
+
+/********************
+ROWS
+*****************/
+
+
+.row2{
+    padding: 50px 100px!important;
+    .row2-text{
+        font-size: 30px;
+        padding: 50px 10px;
+        margin-top: 10px;
+    }
+
+    form{
+        padding: 30px 50px
+    }
+
+}
+
+.row5 h1{
+    font-size: 2em;
+}
+
+ }
+
+}
+
+
+
+
+

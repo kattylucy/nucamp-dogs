@@ -1,0 +1,38 @@
+@media screen and (min-width: $break-large) {
+
+.row2adopt{
+    @include rowdesktop;
+    div{
+        p{
+            padding: 0px 20%;
+            font-size: 1.5em;
+        }
+    }
+}
+.row3adopt{
+    @include rowdesktop;
+
+    .media-container{
+        margin: 0px 10%;
+        background-color: $darkergray;
+        .media-body p{
+            font-size: 1.5em;
+            color: $mainblue;
+        }
+    }
+  
+    img{
+        width: 300px;
+    }
+}
+
+.row4adopt,
+.row5adopt{
+    @include rowdesktop;
+    h1{
+        font-size: 2em;
+    }
+    p{font-size: 1.5em;}
+}
+
+}

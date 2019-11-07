@@ -1,0 +1,21 @@
+footer{
+    background-color: rgba(102, 102, 102, 0.349);
+}
+
+footer div div p{
+    @include titles-text;
+    font-size: .5em;
+    color:white;
+    margin: 0px 30%;
+}
+
+footer .fa{
+    color: white;
+}
+
+@media screen and (min-width: $break-extralarge) {
+
+    footer div div p{
+        margin: 0px 40%;
+    }
+}

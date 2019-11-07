@@ -1,0 +1,51 @@
+
+.logo{
+    width: 5em;
+}
+
+nav{
+    background-color: white;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+
+}
+
+.navbar-nav{
+    li{
+        justify-content: center;
+        display: flex;
+        
+        a{
+            color: black;
+        }
+    }
+}
+
+.banner{
+    background-image:linear-gradient(0deg,rgba(29, 29, 29, 0.3),rgba(51, 51, 51, 0.3)), url("../../img/animal-animal-lover-animal-photography-1904105.jpg");
+    @include banner-image;
+    .banner-text{
+        @include banner-letter;
+        h1{
+            font-size: 1em;
+            padding: 0px 10%;
+        }
+
+        a button{
+            @include button;
+            width: 40%;
+        }
+    }
+}
+
+.bannerabout{
+    background-image:linear-gradient(0deg,rgba(29, 29, 29, 0.493),rgba(51, 51, 51, 0.445)), url("../../img/bannerabout.jpg");
+    .banner-text h1{
+        font-size: 2em;
+    }
+}
+
+.banneradopt{
+    background-image:linear-gradient(0deg,rgba(29, 29, 29, 0.493),rgba(51, 51, 51, 0.445)), url("../../img/banneradopt.jpg");
+
+}
+

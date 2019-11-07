@@ -1,0 +1,42 @@
+
+
+@mixin banner-letter{
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-family: $titlefont;
+}
+
+@mixin row{
+    padding: 20px 0px;
+}
+
+@mixin rowdesktop {
+    padding: 120px 0px;
+}
+
+@mixin banner-image {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 60px 0px;
+}
+
+@mixin button{
+    background-color: $mainblue;
+    border: $mainblue;
+}
+
+
+@mixin titles-text {
+    font-family: $titlefont;
+    font-size: 30px;
+}
+
+@mixin  alternate-button{
+    color: #98C6C1;
+    border-radius: 10px;
+    background-color: white;
+}

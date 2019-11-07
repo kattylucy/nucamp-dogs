@@ -1,0 +1,12 @@
+.rowcontact{
+    @include row;
+}
+
+.rowcontact form button{
+    @include button;
+}
+
+.rowcontact div h2{
+    @include row;
+    @include titles-text;
+}

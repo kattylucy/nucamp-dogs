@@ -1,0 +1,47 @@
+.row1about{
+    @include row;
+    background-color: $mainblue;
+    p{
+        color: white;
+        font-size: 10px;
+    }
+    a{
+        @include alternate-button;
+        font-size: 10px;
+    }
+}
+.row2about{
+    @include row;
+}
+.row3about{
+    @include row;
+    background-color: $darkergray;
+    div img{
+        width: 100%;
+    }
+}
+
+
+
+.row4about{
+    @include row;
+    img{
+        width: 80px;
+    }
+}
+
+.row5about{
+    @include row;
+    background-color: $darkergray;
+    .card{
+        border: none;
+        background-color: transparent;
+        .card-img-top{
+            width: 50%;
+        }
+        .card-body{
+            background-color: $maingray;
+            width: 50%;
+        }
+    }
+}

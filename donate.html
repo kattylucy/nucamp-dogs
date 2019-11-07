@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Street Dog Foundation</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/android-chrome-512x512.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/apple-touch-icon.png">    
+  <link rel="manifest" href="./favicon_io/site.webmanifest">
+
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap cdn-->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- font awesome-->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- css-->
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+  <body>
+
+  <!-- nav bar-->
+  <nav class="navbar navbar-expand-lg px-3 sticky-top">
+      <a class="navbar-brand" href="index.html">
+          <img class="logo" src="img/logo.jpg" alt="company logo"/>
+      </a>
+      <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto pt-md-3">
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="training.html">Training</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="adopt.html">Adopt</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="donate.html">Donate</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+
+ 
+  <div class="banner bannerdonate">
+      <div class="banner-text pl-3 text-center pt-lg-5">
+          <h1>Donate</h1>
+      </div>
+  </div>
+
+
+<!--Donation section-->
+<article class="card">
+  <div class="card-body p-5">
+  
+  <ul class="nav bg-light nav-pills rounded nav-fill mb-3" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="pill" href="#nav-tab-card">
+      <i class="fa fa-credit-card"></i> Credit Card</a></li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="pill" href="#nav-tab-paypal">
+      <i class="fab fa-paypal"></i>  Paypal</a></li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="pill" href="#nav-tab-bank">
+      <i class="fa fa-university"></i>  Bank Transfer</a></li>
+  </ul>
+  
+  <div class="tab-content">
+  <div class="tab-pane fade show active" id="nav-tab-card">
+    <p class="alert alert-success">Some text success or error</p>
+    <form role="form">
+    <div class="form-group">
+      <label for="username">Full name (on the card)</label>
+      <input type="text" class="form-control" name="username" placeholder="" required="">
+    </div> <!-- form-group.// -->
+  
+    <div class="form-group">
+      <label for="cardNumber">Card number</label>
+      <div class="input-group">
+        <input type="text" class="form-control" name="cardNumber" placeholder="">
+        <div class="input-group-append">
+          <span class="input-group-text text-muted">
+            <i class="fab fa-cc-visa"></i>   <i class="fab fa-cc-amex"></i>   
+            <i class="fab fa-cc-mastercard"></i> 
+          </span>
+        </div>
+      </div>
+    </div> <!-- form-group.// -->
+  
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label><span class="hidden-xs">Expiration</span> </label>
+              <div class="input-group">
+                <input type="number" class="form-control" placeholder="MM" name="">
+                  <input type="number" class="form-control" placeholder="YY" name="">
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="form-group">
+                <label data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVV <i class="fa fa-question-circle"></i></label>
+                <input type="number" class="form-control" required="">
+            </div> <!-- form-group.// -->
+        </div>
+    </div> <!-- row.// -->
+    <button class="subscribe btn btn-primary btn-block" type="button"> Confirm  </button>
+    </form>
+  </div> <!-- tab-pane.// -->
+  <div class="tab-pane fade" id="nav-tab-paypal">
+  <p>Paypal is easiest way to pay online</p>
+  <p>
+  <button type="button" class="btn btn-primary"> <i class="fab fa-paypal"></i> Log in my Paypal </button>
+  </p>
+  <p><strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. </p>
+  </div>
+  <div class="tab-pane fade" id="nav-tab-bank">
+  <p>Bank accaunt details</p>
+  <dl class="param">
+    <dt>BANK: </dt>
+    <dd> THE WORLD BANK</dd>
+  </dl>
+  <dl class="param">
+    <dt>Accaunt number: </dt>
+    <dd> 12345678912345</dd>
+  </dl>
+  <dl class="param">
+    <dt>IBAN: </dt>
+    <dd> 123456789</dd>
+  </dl>
+  <p><strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. </p>
+  </div> <!-- tab-pane.// -->
+  </div> <!-- tab-content .// -->
+  
+  </div> <!-- card-body.// -->
+  </article> <!-- card.// -->
+  
+  
+    </aside> <!-- col.// -->
+  </div> <!-- row.// -->
+  
+  </div> 
+  <!--container end.//-->
+
+<footer class="pt-4 pb-4">
+    <div class="d-flex justify-content-center row">
+        <div class="col-12 text-center">
+            <p class="mb-3">
+                Founded by Dawn Trimmel and David Reese in 2011, 
+                ISDF’s main mission is to raise awareness of issues facing dogs 
+                around the world. We believe that change begins with awareness
+            </p>
+        </div>
+        <div class="col-12 text-center">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="js/scripts.js"></script>
+  </body>
+</html>

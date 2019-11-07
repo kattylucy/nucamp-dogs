@@ -1,0 +1,36 @@
+@media screen and (min-width: $break-large) {
+
+.row1about{
+    p,
+    a{
+        font-size: 1.5em;
+    }
+}
+.row2about{
+    p{
+        font-size: 2em;
+    }
+}
+.row4about{
+    div{
+        p{
+            padding: 0px 10%;
+        }
+    }
+}
+
+
+}
+
+@media screen and (min-width: $break-extralarge) {
+    .row2about{
+        padding: 50px 0px;
+        img{
+            height: 300px;
+        }
+    }
+
+    .carouselrow{
+        @include row;
+    }
+}

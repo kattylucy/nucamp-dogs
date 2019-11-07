@@ -1,0 +1,70 @@
+.row1{
+    a{
+        color: white;
+    }
+    div{
+        @include row;
+        background-color: $mainblue;
+    }
+    div:nth-child(2){
+        background-color: $secondaryblue;
+    }
+}
+.row2{
+    background-color: $maingray;
+    @include row;
+
+    form button{
+        @include button;
+    }
+}
+.row3{
+    @include row;
+    .title{
+        @include titles-text;
+    }
+    div .dog-card p{
+        background-color: $maingray;
+        margin: 0px 50px;
+        font-size: 20px;
+    }
+}
+.row4{  
+    @include row;
+    div{
+        border-bottom: 1px solid $darkergray;
+        @include titles-text;
+        font-size: 20px;
+        color: $mainblue;
+    }
+}
+.row4 div:first-child{
+    border-top: 1px solid $darkergray;
+}
+.row5{
+    background-image:linear-gradient(0deg,rgba(29, 29, 29, 0.3),rgba(51, 51, 51, 0.3)), url("../../img/homepagebelow.jpg");
+    @include banner-image;
+    @include row;
+    h1{
+        @include titles-text;
+        text-align: center;
+        color: $mainblue;
+        font-size: 1.5em;
+    }
+    a{
+        @include button;
+        width: 100%;
+        font-size: 15px;
+    }
+}
+.row6{
+    @include row;
+    background-color: $mainblue;
+    h1{
+        color: white;
+        font-size: 20px;
+    }
+    a{
+      @include alternate-button;
+    }
+}

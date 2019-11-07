@@ -1,0 +1,38 @@
+//website colors
+
+$mainblue: #98C6C1;
+$secondaryblue: rgba(152, 198, 181, 0.690);
+$maingray: rgba(216, 216, 216, 0.233);
+$darkergray: rgba(107, 122, 143, 0.158);
+
+
+//website font
+
+$titlefont:  Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif; // use for titles
+$mainfont: AppleGothic; // use for the rest of the website 
+
+//media query variables
+
+$break-small: 320px;
+$break-medium: 700px;
+$break-large: 1000px;
+$break-extralarge: 1300px;
+
+
+
+//important body reset
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $mainfont;
+    overflow-x: hidden!important;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.alert{
+    display: none;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-project-dogs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-watch": "npm run css-compile -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kattylucy/Portfolio-Project-Dogs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kattylucy/Portfolio-Project-Dogs/issues"
+  },
+  "homepage": "https://github.com/kattylucy/Portfolio-Project-Dogs#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

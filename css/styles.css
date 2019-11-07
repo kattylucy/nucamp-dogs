@@ -1,0 +1,36 @@
+/* ABOUT SECTION ROW */
+
+.row2about div h1,
+.row4about div h1,
+.row5about h1{
+        font-size: 2em;
+        
+}
+.row2about div p,
+.row4about div p{
+        font-size: .7rem;
+    }
+
+.alert{
+margin-bottom: 0px!important;
+}
+
+@media screen and (min-width:1000px) {
+
+.row2about div h1,
+.row4about div h1,
+.row5about h1{
+        font-size: 2em;
+        color: #98C6C1;
+        font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+}
+.row2about div p,
+.row4about div p{
+        font-size: 1rem;
+    }
+
+.carousel{
+width: 30%;
+}
+
+}

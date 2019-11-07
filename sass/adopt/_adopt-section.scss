@@ -1,0 +1,34 @@
+@import '../base/mixin';
+
+.row2adopt{
+    @include row;
+    background-color: $darkergray;
+}
+
+.row2adopt div button{
+    @include button;
+    color: white;
+}
+
+.row4adopt{
+    @include row;
+    background-color: $mainblue;
+    h1{
+        color: white;
+        @include titles-text;
+    }
+    p{
+        color: white;
+    }
+}
+
+.row5adopt{
+    @include row;
+    h1{
+        @include titles-text;
+    }
+    a{
+        @include button;
+        color: white;
+    }
+}
