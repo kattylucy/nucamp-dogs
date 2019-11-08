@@ -11,7 +11,7 @@
     padding: 20px 0px;
 }
 
-@mixin rowdesktop {
+@mixin rowdesktop{
     padding: 120px 0px;
 }
 
@@ -29,8 +29,7 @@
     border: $mainblue;
 }
 
-
-@mixin titles-text {
+@mixin titles-text{
     font-family: $titlefont;
     font-size: 30px;
 }

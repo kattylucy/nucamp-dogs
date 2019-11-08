@@ -1,0 +1,36 @@
+.rowdonate h1{
+    @include titles-text;
+    @include row;
+}
+
+.rowdonate div{
+    @include row;
+}
+
+.rowdonate div input{
+    width: 60%;
+}
+
+.col1donate{
+    background-color: $mainblue;
+    @include row;
+}
+
+.innerrowdonate{
+    background-color: rgba(0, 0, 0, 0.171);
+    padding: 0px 20px;
+
+    h1{
+        color: white;
+    }
+}
+
+.rowdonate button{
+    @include button;
+    width: 30%;
+}
+
+
+.col2donate{
+    background-color: $secondaryblue;
+}

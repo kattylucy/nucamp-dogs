@@ -32,7 +32,7 @@ nav {
 }
 
 .banner {
-  background-image: linear-gradient(0deg, rgba(29, 29, 29, 0.3), rgba(51, 51, 51, 0.3)), url("../../img/animal-animal-lover-animal-photography-1904105.jpg");
+  background-image: linear-gradient(0deg, rgba(29, 29, 29, 0.3), rgba(51, 51, 51, 0.3)), url("../img/animal-animal-lover-animal-photography-1904105.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,14 +57,14 @@ nav {
 }
 
 .bannerabout {
-  background-image: linear-gradient(0deg, rgba(29, 29, 29, 0.493), rgba(51, 51, 51, 0.445)), url("../../img/bannerabout.jpg");
+  background-image: linear-gradient(0deg, rgba(29, 29, 29, 0.493), rgba(51, 51, 51, 0.445)), url("../img/bannerabout.jpg");
 }
 .bannerabout .banner-text h1 {
   font-size: 2em;
 }
 
 .banneradopt {
-  background-image: linear-gradient(0deg, rgba(29, 29, 29, 0.493), rgba(51, 51, 51, 0.445)), url("../../img/banneradopt.jpg");
+  background-image: linear-gradient(0deg, rgba(29, 29, 29, 0.493), rgba(51, 51, 51, 0.445)), url("../img/banneradopt.jpg");
 }
 
 .row1 a {
@@ -116,7 +116,7 @@ nav {
 }
 
 .row5 {
-  background-image: linear-gradient(0deg, rgba(29, 29, 29, 0.3), rgba(51, 51, 51, 0.3)), url("../../img/homepagebelow.jpg");
+  background-image: linear-gradient(0deg, rgba(29, 29, 29, 0.3), rgba(51, 51, 51, 0.3)), url("../img/homepagebelow.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -453,6 +453,43 @@ footer .fa {
   padding: 20px 0px;
   font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
   font-size: 30px;
+}
+
+.rowdonate h1 {
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  font-size: 30px;
+  padding: 20px 0px;
+}
+
+.rowdonate div {
+  padding: 20px 0px;
+}
+
+.rowdonate div input {
+  width: 60%;
+}
+
+.col1donate {
+  background-color: #98C6C1;
+  padding: 20px 0px;
+}
+
+.innerrowdonate {
+  background-color: rgba(0, 0, 0, 0.171);
+  padding: 0px 20px;
+}
+.innerrowdonate h1 {
+  color: white;
+}
+
+.rowdonate button {
+  background-color: #98C6C1;
+  border: #98C6C1;
+  width: 30%;
+}
+
+.col2donate {
+  background-color: rgba(152, 198, 181, 0.69);
 }
 
 /*# sourceMappingURL=main.css.map */
