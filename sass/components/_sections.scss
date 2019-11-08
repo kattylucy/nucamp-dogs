@@ -42,7 +42,7 @@
     border-top: 1px solid $darkergray;
 }
 .row5{
-    background-image:linear-gradient(0deg,rgba(29, 29, 29, 0.3),rgba(51, 51, 51, 0.3)), url("../../img/homepagebelow.jpg");
+    background-image:linear-gradient(0deg,rgba(29, 29, 29, 0.3),rgba(51, 51, 51, 0.3)), url("../img/homepagebelow.jpg");
     @include banner-image;
     @include row;
     h1{
